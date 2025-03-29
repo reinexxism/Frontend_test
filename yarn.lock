@@ -2202,7 +2202,7 @@ __metadata:
     globals: ^15.15.0
     react: ^19.0.0
     react-dom: ^19.0.0
-    react-router-dom: ^7.4.1
+    react-router-dom: latest
     react-slick: ^0.30.3
     slick-carousel: ^1.8.1
     styled-components: ^6.1.16
@@ -2245,7 +2245,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:^7.4.1":
+"react-router-dom@npm:latest":
   version: 7.4.1
   resolution: "react-router-dom@npm:7.4.1"
   dependencies:

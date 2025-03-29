@@ -1,11 +1,14 @@
 import GlobalStyle from "./styles/GlobalStyle";
-import EntireContent from "./components/EntireContent";
+import EntireContainer from "./components/EntireContainer";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <GlobalStyle />
-      <EntireContent />
+      <BrowserRouter>
+        <GlobalStyle />
+        <EntireContainer />
+      </BrowserRouter>
     </>
   );
 }
