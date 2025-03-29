@@ -1,5 +1,6 @@
 import React from "react";
+import { FooterContainer } from "../../styles/FooterStyle";
 
 export default function Footer() {
-  return <div></div>;
+  return <FooterContainer>Footer area</FooterContainer>;
 }
