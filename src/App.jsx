@@ -1,7 +1,11 @@
+import GlobalStyle from "./styles/GlobalStyle";
+import EntireContent from "./components/EntireContent";
+
 function App() {
   return (
     <>
-      <h1>Hello</h1>
+      <GlobalStyle />
+      <EntireContent />
     </>
   );
 }
