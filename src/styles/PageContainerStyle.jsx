@@ -1,5 +1,15 @@
 import styled from "styled-components";
 
+export const ChartPageContainer = styled.div`
+  width: 425px;
+  height: 700px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+
 export const WhookPageContainer = styled.div`
   width: 425px;
   height: 700px;

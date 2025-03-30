@@ -5,6 +5,7 @@ import Footer from "./common/Footer";
 import AppRouter from "../router/AppRouter";
 import { useNavigate, useLocation } from "react-router-dom";
 import { useSwipeable } from "react-swipeable";
+import { motion } from "framer-motion";
 
 const pages = [
   "/",
@@ -35,7 +36,15 @@ export default function EntireContainer() {
     <Container>
       <Navbar />
       <ContentArea {...handlers}>
-        <AppRouter />
+        <motion.div
+          key={location.pathname}
+          initial={{ x: "100%", opacity: 0 }}
+          animate={{ x: 0, opacity: 1 }}
+          exit={{ x: "-100%", opacity: 0 }}
+          transition={{ type: "tween", stiffness: 300, damping: 10 }}
+        >
+          <AppRouter />
+        </motion.div>
       </ContentArea>
       <Footer />
     </Container>

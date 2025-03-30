@@ -1,13 +1,13 @@
 import React from "react";
-import { PageContainer } from "../styles/PageContainerStyle";
 import Slider from "../components/Slider";
 import ContentList from "../components/ContentList";
+import { ChartPageContainer } from "../styles/PageContainerStyle";
 
 export default function ChartPage() {
   return (
-    <PageContainer>
+    <ChartPageContainer>
       <Slider />
       <ContentList />
-    </PageContainer>
+    </ChartPageContainer>
   );
 }
