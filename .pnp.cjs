@@ -35,11 +35,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:9.23.0"],\
             ["eslint-plugin-react-hooks", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:5.2.0"],\
             ["eslint-plugin-react-refresh", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:0.4.19"],\
+            ["framer-motion", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:12.6.2"],\
             ["globals", "npm:15.15.0"],\
             ["react", "npm:19.1.0"],\
             ["react-dom", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:19.1.0"],\
             ["react-router-dom", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:7.4.1"],\
             ["react-slick", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:0.30.3"],\
+            ["react-swipeable", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:7.0.2"],\
             ["slick-carousel", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:1.8.1"],\
             ["styled-components", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:6.1.16"],\
             ["vite", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:6.2.3"]\
@@ -1890,6 +1892,39 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["framer-motion", [\
+        ["npm:12.6.2", {\
+          "packageLocation": "./.yarn/cache/framer-motion-npm-12.6.2-c21cc42dec-54658a2688.zip/node_modules/framer-motion/",\
+          "packageDependencies": [\
+            ["framer-motion", "npm:12.6.2"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:12.6.2", {\
+          "packageLocation": "./.yarn/__virtual__/framer-motion-virtual-46dd83a114/0/cache/framer-motion-npm-12.6.2-c21cc42dec-54658a2688.zip/node_modules/framer-motion/",\
+          "packageDependencies": [\
+            ["framer-motion", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:12.6.2"],\
+            ["@emotion/is-prop-valid", null],\
+            ["@types/emotion__is-prop-valid", null],\
+            ["@types/react", "npm:19.0.12"],\
+            ["@types/react-dom", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:19.0.4"],\
+            ["motion-dom", "npm:12.6.1"],\
+            ["motion-utils", "npm:12.5.0"],\
+            ["react", "npm:19.1.0"],\
+            ["react-dom", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:19.1.0"],\
+            ["tslib", "npm:2.8.1"]\
+          ],\
+          "packagePeers": [\
+            "@emotion/is-prop-valid",\
+            "@types/emotion__is-prop-valid",\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["fs-minipass", [\
         ["npm:3.0.3", {\
           "packageLocation": "./.yarn/cache/fs-minipass-npm-3.0.3-d148d6ac19-8722a41109.zip/node_modules/fs-minipass/",\
@@ -2398,6 +2433,25 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["motion-dom", [\
+        ["npm:12.6.1", {\
+          "packageLocation": "./.yarn/cache/motion-dom-npm-12.6.1-9e69cff8db-937e9d7a5f.zip/node_modules/motion-dom/",\
+          "packageDependencies": [\
+            ["motion-dom", "npm:12.6.1"],\
+            ["motion-utils", "npm:12.5.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["motion-utils", [\
+        ["npm:12.5.0", {\
+          "packageLocation": "./.yarn/cache/motion-utils-npm-12.5.0-43110c5615-347169ab97.zip/node_modules/motion-utils/",\
+          "packageDependencies": [\
+            ["motion-utils", "npm:12.5.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["ms", [\
         ["npm:2.1.3", {\
           "packageLocation": "./.yarn/cache/ms-npm-2.1.3-81ff3cfac1-aa92de6080.zip/node_modules/ms/",\
@@ -2634,11 +2688,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:9.23.0"],\
             ["eslint-plugin-react-hooks", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:5.2.0"],\
             ["eslint-plugin-react-refresh", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:0.4.19"],\
+            ["framer-motion", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:12.6.2"],\
             ["globals", "npm:15.15.0"],\
             ["react", "npm:19.1.0"],\
             ["react-dom", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:19.1.0"],\
             ["react-router-dom", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:7.4.1"],\
             ["react-slick", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:0.30.3"],\
+            ["react-swipeable", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:7.0.2"],\
             ["slick-carousel", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:1.8.1"],\
             ["styled-components", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:6.1.16"],\
             ["vite", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:6.2.3"]\
@@ -2790,6 +2846,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "@types/react-dom",\
             "@types/react",\
             "react-dom",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-swipeable", [\
+        ["npm:7.0.2", {\
+          "packageLocation": "./.yarn/cache/react-swipeable-npm-7.0.2-351f02a9a7-3bcc470427.zip/node_modules/react-swipeable/",\
+          "packageDependencies": [\
+            ["react-swipeable", "npm:7.0.2"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:7.0.2", {\
+          "packageLocation": "./.yarn/__virtual__/react-swipeable-virtual-3d49115d4b/0/cache/react-swipeable-npm-7.0.2-351f02a9a7-3bcc470427.zip/node_modules/react-swipeable/",\
+          "packageDependencies": [\
+            ["react-swipeable", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:7.0.2"],\
+            ["@types/react", "npm:19.0.12"],\
+            ["react", "npm:19.1.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
             "react"\
           ],\
           "linkType": "HARD"\
@@ -3157,6 +3235,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/tslib-npm-2.6.2-4fc8c068d9-329ea56123.zip/node_modules/tslib/",\
           "packageDependencies": [\
             ["tslib", "npm:2.6.2"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:2.8.1", {\
+          "packageLocation": "./.yarn/cache/tslib-npm-2.8.1-66590b21b8-e4aba30e63.zip/node_modules/tslib/",\
+          "packageDependencies": [\
+            ["tslib", "npm:2.8.1"]\
           ],\
           "linkType": "HARD"\
         }]\
