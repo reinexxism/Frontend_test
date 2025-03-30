@@ -1,6 +1,6 @@
 import React from "react";
-import { PageContainer } from "../styles/PageContainerStyle";
+import { WhookPageContainer } from "../styles/PageContainerStyle";
 
 export default function WhookPage() {
-  return <PageContainer>Whook 페이지입니다.</PageContainer>;
+  return <WhookPageContainer>Whook 페이지입니다.</WhookPageContainer>;
 }
