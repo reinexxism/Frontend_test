@@ -21,4 +21,5 @@ export const ListTitleSection = styled.div`
 export const LoadingBox = styled.div`
   text-align: center;
   color: #000;
+  font-size: 13px;
 `;

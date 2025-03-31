@@ -21,12 +21,12 @@ export const NavbarTop = styled.div`
 `;
 
 export const CurrentTime = styled.p`
-  font-size: 16px;
+  font-size: 14px;
   color: #fff;
 `;
 
 export const CurrentState = styled.div`
-  font-size: 16px;
+  font-size: 14px;
   color: #fff;
 `;
 
