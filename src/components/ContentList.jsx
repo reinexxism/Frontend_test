@@ -45,7 +45,7 @@ export default function ContentList() {
       {items.map((item) => (
         <ListContent key={item} item={item} />
       ))}
-      {hasMore && <LoadingBox ref={ref}>Loading...</LoadingBox>}
+      {hasMore && <LoadingBox ref={ref}>불러오는 중이에요!🔥</LoadingBox>}
     </ListContainer>
   );
 }
