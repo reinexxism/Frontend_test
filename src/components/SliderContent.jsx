@@ -1,6 +1,27 @@
 import React from "react";
-import { Container } from "../styles/SliderContentStyle";
+import {
+  Button,
+  Container,
+  DateArea,
+  ImgArea,
+  TextArea,
+  P,
+  EmptyImgArea,
+} from "../styles/SliderContentStyle";
 
-export default function SliderContent({ num }) {
-  return <Container>{num} slide</Container>;
+export default function SliderContent({ text, date, imgPath }) {
+  return (
+    <Container>
+      {imgPath ? (
+        <ImgArea src={imgPath} />
+      ) : (
+        <EmptyImgArea>사진 영역</EmptyImgArea>
+      )}
+      <TextArea>
+        <P>{text}</P>
+        <Button>투표하기</Button>
+      </TextArea>
+      <DateArea>{date}</DateArea>
+    </Container>
+  );
 }

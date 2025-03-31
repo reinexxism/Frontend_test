@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { SliderContainer } from "../SliderStyle";
 import SliderContent from "./SliderContent";
+import { SliderContainer } from "../styles/SliderStyle";
 
 export default function SliderArea() {
   const [isMounted, setIsMounted] = useState(false);
@@ -30,11 +30,31 @@ export default function SliderArea() {
   return (
     <SliderContainer>
       <Slider {...settings}>
-        <SliderContent num="first" />
-        <SliderContent num="second" />
-        <SliderContent num="third" />
-        <SliderContent num="fourth" />
-        <SliderContent num="fifth" />
+        <SliderContent
+          text="[M COUNTDOWN] 10월 2주차 엠카 사전..."
+          date="2020.02.08 10:00 ~ 2020.04.08 17:00(KST)"
+          imgPath="src/assets/first_slide.png"
+        />
+        <SliderContent
+          text="2번째 슬라이드 제목"
+          date="2번째 슬라이드 날짜"
+          imgPath=""
+        />
+        <SliderContent
+          text="3번째 슬라이드 제목"
+          date="3번째 슬라이드 날짜"
+          imgPath=""
+        />
+        <SliderContent
+          text="4번째 슬라이드 제목"
+          date="4번째 슬라이드 날짜"
+          imgPath=""
+        />
+        <SliderContent
+          text="5번째 슬라이드 제목"
+          date="5번째 슬라이드 날짜"
+          imgPath=""
+        />
       </Slider>
     </SliderContainer>
   );
