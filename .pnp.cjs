@@ -29,6 +29,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@eslint/js", "npm:9.23.0"],\
+            ["@fortawesome/fontawesome-svg-core", "npm:6.7.2"],\
+            ["@fortawesome/free-solid-svg-icons", "npm:6.7.2"],\
+            ["@fortawesome/react-fontawesome", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:0.2.2"],\
             ["@types/react", "npm:19.0.12"],\
             ["@types/react-dom", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:19.0.4"],\
             ["@vitejs/plugin-react", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:4.3.4"],\
@@ -671,6 +674,62 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@eslint/plugin-kit", "npm:0.2.7"],\
             ["@eslint/core", "npm:0.12.0"],\
             ["levn", "npm:0.4.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@fortawesome/fontawesome-common-types", [\
+        ["npm:6.7.2", {\
+          "packageLocation": "./.yarn/cache/@fortawesome-fontawesome-common-types-npm-6.7.2-07bf35c518-9c17f03032.zip/node_modules/@fortawesome/fontawesome-common-types/",\
+          "packageDependencies": [\
+            ["@fortawesome/fontawesome-common-types", "npm:6.7.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@fortawesome/fontawesome-svg-core", [\
+        ["npm:6.7.2", {\
+          "packageLocation": "./.yarn/cache/@fortawesome-fontawesome-svg-core-npm-6.7.2-e22b101297-b3c269545d.zip/node_modules/@fortawesome/fontawesome-svg-core/",\
+          "packageDependencies": [\
+            ["@fortawesome/fontawesome-svg-core", "npm:6.7.2"],\
+            ["@fortawesome/fontawesome-common-types", "npm:6.7.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@fortawesome/free-solid-svg-icons", [\
+        ["npm:6.7.2", {\
+          "packageLocation": "./.yarn/cache/@fortawesome-free-solid-svg-icons-npm-6.7.2-35f32a3213-457cc18039.zip/node_modules/@fortawesome/free-solid-svg-icons/",\
+          "packageDependencies": [\
+            ["@fortawesome/free-solid-svg-icons", "npm:6.7.2"],\
+            ["@fortawesome/fontawesome-common-types", "npm:6.7.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@fortawesome/react-fontawesome", [\
+        ["npm:0.2.2", {\
+          "packageLocation": "./.yarn/cache/@fortawesome-react-fontawesome-npm-0.2.2-e1863961b2-e4bed35bfb.zip/node_modules/@fortawesome/react-fontawesome/",\
+          "packageDependencies": [\
+            ["@fortawesome/react-fontawesome", "npm:0.2.2"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:0.2.2", {\
+          "packageLocation": "./.yarn/__virtual__/@fortawesome-react-fontawesome-virtual-9a630e0e88/0/cache/@fortawesome-react-fontawesome-npm-0.2.2-e1863961b2-e4bed35bfb.zip/node_modules/@fortawesome/react-fontawesome/",\
+          "packageDependencies": [\
+            ["@fortawesome/react-fontawesome", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:0.2.2"],\
+            ["@fortawesome/fontawesome-svg-core", "npm:6.7.2"],\
+            ["@types/fortawesome__fontawesome-svg-core", null],\
+            ["@types/react", "npm:19.0.12"],\
+            ["prop-types", "npm:15.8.1"],\
+            ["react", "npm:19.1.0"]\
+          ],\
+          "packagePeers": [\
+            "@fortawesome/fontawesome-svg-core",\
+            "@types/fortawesome__fontawesome-svg-core",\
+            "@types/react",\
+            "react"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2289,6 +2348,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["loose-envify", [\
+        ["npm:1.4.0", {\
+          "packageLocation": "./.yarn/cache/loose-envify-npm-1.4.0-6307b72ccf-6517e24e0c.zip/node_modules/loose-envify/",\
+          "packageDependencies": [\
+            ["loose-envify", "npm:1.4.0"],\
+            ["js-tokens", "npm:4.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["lru-cache", [\
         ["npm:10.4.3", {\
           "packageLocation": "./.yarn/cache/lru-cache-npm-10.4.3-30c10b861a-6476138d21.zip/node_modules/lru-cache/",\
@@ -2527,6 +2596,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["object-assign", [\
+        ["npm:4.1.1", {\
+          "packageLocation": "./.yarn/cache/object-assign-npm-4.1.1-1004ad6dec-fcc6e4ea8c.zip/node_modules/object-assign/",\
+          "packageDependencies": [\
+            ["object-assign", "npm:4.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["optionator", [\
         ["npm:0.9.4", {\
           "packageLocation": "./.yarn/cache/optionator-npm-0.9.4-1f114b00e8-ecbd010e3d.zip/node_modules/optionator/",\
@@ -2683,6 +2761,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["project-joohyun", "workspace:."],\
             ["@eslint/js", "npm:9.23.0"],\
+            ["@fortawesome/fontawesome-svg-core", "npm:6.7.2"],\
+            ["@fortawesome/free-solid-svg-icons", "npm:6.7.2"],\
+            ["@fortawesome/react-fontawesome", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:0.2.2"],\
             ["@types/react", "npm:19.0.12"],\
             ["@types/react-dom", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:19.0.4"],\
             ["@vitejs/plugin-react", "virtual:f81d449f031dcaa55cbda1714f148346b072f5d92b81215f0b2528fc89859aa59331bf72f0150b98b9804c28339b54d51521b9499c848c73e5ca7ea84e74ab66#npm:4.3.4"],\
@@ -2711,6 +2792,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["promise-retry", "npm:2.0.1"],\
             ["err-code", "npm:2.0.3"],\
             ["retry", "npm:0.12.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["prop-types", [\
+        ["npm:15.8.1", {\
+          "packageLocation": "./.yarn/cache/prop-types-npm-15.8.1-17c71ee7ee-c056d3f1c0.zip/node_modules/prop-types/",\
+          "packageDependencies": [\
+            ["prop-types", "npm:15.8.1"],\
+            ["loose-envify", "npm:1.4.0"],\
+            ["object-assign", "npm:4.1.1"],\
+            ["react-is", "npm:16.13.1"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2778,6 +2871,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "@types/react",\
             "react-dom",\
             "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-is", [\
+        ["npm:16.13.1", {\
+          "packageLocation": "./.yarn/cache/react-is-npm-16.13.1-a9b9382b4f-f7a19ac349.zip/node_modules/react-is/",\
+          "packageDependencies": [\
+            ["react-is", "npm:16.13.1"]\
           ],\
           "linkType": "HARD"\
         }]\

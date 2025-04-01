@@ -25,9 +25,12 @@ export const CurrentTime = styled.p`
   color: #fff;
 `;
 
-export const CurrentState = styled.div`
-  font-size: 14px;
-  color: #fff;
+export const CurrentStateContainer = styled.div`
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 `;
 
 // 서비스의 상단부분
