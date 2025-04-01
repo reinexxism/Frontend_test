@@ -9,8 +9,8 @@ import {
   EmptyImgArea,
 } from "../styles/SliderContentStyle";
 
-export default function SliderContent({ text, date, imgPath }) {
-  return (
+export default function SliderContent({ text, date, imgPath, linkPath }) {
+  const Content = (
     <Container>
       {imgPath ? (
         <ImgArea src={imgPath} />
@@ -23,5 +23,16 @@ export default function SliderContent({ text, date, imgPath }) {
       </TextArea>
       <DateArea>{date}</DateArea>
     </Container>
+  );
+  return linkPath ? (
+    <a
+      href={linkPath}
+      target="_blank"
+      style={{ textDecoration: "none", color: "inherit" }}
+    >
+      {Content}
+    </a>
+  ) : (
+    Content
   );
 }

@@ -11,6 +11,10 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  &:hover {
+    cursor: pointer;
+  }
 `;
 
 export const ImgArea = styled.img`
@@ -50,10 +54,6 @@ export const Button = styled.button`
   color: #fc63ac;
   font-weight: bold;
   background-color: #fff;
-
-  &:hover {
-    cursor: pointer;
-  }
 `;
 
 export const P = styled.p`
