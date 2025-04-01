@@ -33,7 +33,7 @@ export default function SliderArea() {
         <SliderContent
           text="[M COUNTDOWN] 10월 2주차 엠카 사전..."
           date="2020.02.08 10:00 ~ 2020.04.08 17:00(KST)"
-          imgPath="src/assets/first_slide.png"
+          imgPath="https://pbs.twimg.com/media/EiLB35lU0AAcIPZ.png"
           linkPath="https://poc.mnetplus.world/mcountdown/ko/play"
         />
         <SliderContent
